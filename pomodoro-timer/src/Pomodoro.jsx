@@ -47,8 +47,8 @@ export default function Pomodoro(props) {
                                 setMinutes(minutes-1);
                             } 
                             else{
-                                let minutes = isSession ? props.breakInterval -1 : props.sessionInterval -1;
-                                let seconds = 59;
+                                let minutes = isSession ? props.breakInterval : props.sessionInterval;
+                                let seconds = 0;
                                 setMinutes(minutes);
                                 setSeconds(seconds);
                                 setIsSession(!isSession);
