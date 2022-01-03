@@ -8,8 +8,8 @@ class App extends React.Component {
   constructor(){
     super();
     this.state = {
-      breakCount : 3,
-      sessionCount : 15,
+      breakCount : 5,
+      sessionCount : 25,
     }
     this.increaseBreakLength = this.increaseBreakLength.bind(this);
     this.decreaseBreakLength = this.decreaseBreakLength.bind(this);

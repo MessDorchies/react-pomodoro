@@ -2,7 +2,7 @@ import React, {useEffect, useState} from 'react';
 
 export default function Pomodoro(props) {
 
-    const [minutes, setMinutes] = useState(15);
+    const [minutes, setMinutes] = useState(25);
     const [seconds, setSeconds] = useState(0);
     const [isSession, setIsSession] = useState(true);
     const [isStarted, setIsStarted] = useState(false);
